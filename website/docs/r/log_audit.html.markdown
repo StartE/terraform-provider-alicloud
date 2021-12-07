@@ -228,7 +228,7 @@ The following arguments are supported:
     - `polardb_perf_collection_policy` - (Optional) PolarDB performance log collection policy script. Default empty.
     - `polardb_perf_ttl` - (Optional) PolarDB performance log TTL. Default 180.
     
-    - `ddrds_audit_enabled` - (Optional) PolarDB-X audit log switch. Default false.
+    - `ddrds_audit_enabled` - (Optional) PolarDB-X audit log switch. Default true.
     - `rds_audit_collection_policy` - (Optional) PolarDB-X  audit log collection policy script. Default empty.
     
     - `drds_audit_ttl` - (Optional) Regional PolarDB-X  audit log ttl. Default 7.
