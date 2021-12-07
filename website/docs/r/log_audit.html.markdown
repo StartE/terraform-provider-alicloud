@@ -210,7 +210,7 @@ The following arguments are supported:
     - `rds_perf_ttl` - (Optional) RDS performance log TTL. Default 180.
     - `vpc_flow_enabled` - (Optional) Flow log of VPC. Default false.
     - `vpc_flow_ttl` - (Optional) Regional flow log TTL of VPC. Default 7.
-    - `vpc_flow_collection_policy` - (Optional) VPC flow log collection policy script.
+    - `vpc_flow_collection_policy` - (Optional) VPC flow log collection policy script. Default empty.
     - `vpc_sync_enabled` - (Optional) VPC synchronization to central configuration switch. Default true.
     - `vpc_sync_ttl` - (Optional) VPC synchronization to central TTL. Default 180.
     - `polardb_enabled` - (Optional) PolarDB audit log switch. Default false.
